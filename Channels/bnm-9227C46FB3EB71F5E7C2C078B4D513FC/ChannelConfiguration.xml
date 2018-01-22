@@ -1,0 +1,24 @@
+<channel
+   name="bnm"
+   guid="9227C46FB3EB71F5E7C2C078B4D513FC"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="5CD47891123485204549F19F7ED47C70"
+      commit_id="fcb9592060d912c871392e61c36e42fc0193aba3"
+      commit_comment="b">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="84C5511C65ABA2CD0D09986AD3C7C178"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_llp_listener
+      ack_vmd_path="${iguana_dir}/autoack.vmd"
+      port="5347"
+      connection_timeout="30"
+      unlimited_connection_timeout="false"
+      ack_style="fast"/>
+</channel>

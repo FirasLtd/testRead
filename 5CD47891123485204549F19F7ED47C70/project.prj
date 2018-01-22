@@ -1,0 +1,13 @@
+{
+    "LocalDependencies": [],
+    "LuaDependencies": [],
+    "OtherDependencies": [
+        "hl7_gar.vmd"
+    ],
+    "timestamp": "1516632011",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}
